@@ -5,6 +5,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
         public static void task1 () {
             System.out.println("Задача 1:");
@@ -30,15 +31,27 @@ public class Main {
         }
     public static void task3 () {
         System.out.println("Задача 3:");
-        //«Если скорость …, то (вывести в зависимости от результата)
-        // придется заплатить штраф / можно ездить спокойно».
-
         int speed = 50;
         if (speed >= 60) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
-        } else
-        {
+        } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
+        }
+    }
+    public static void task4 () {
+        System.out.println("Задача 4:");
+        int human = 27;
+        if (human >= 2 && human < 6) {
+            System.out.println("Если возраст человека равен " + human + ", то ему нужно ходить в детский сад");
+        }
+        if (human >= 7 && human < 18) {
+            System.out.println("Если возраст человека равен " + human + ", то ему нужно ходить в школу");
+        }
+        if (human >= 18 && human < 24) {
+            System.out.println("Если возраст человека равен " + human + ", то ему нужно ходить в университет");
+        }
+        if (human >= 24) {
+            System.out.println("Если возраст человека равен " + human + ", то ему нужно ходить на работу");
         }
     }
 }
