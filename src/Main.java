@@ -19,7 +19,12 @@ public class Main {
 
         public static void task2 () {
             System.out.println("Задача 2:");
-                System.out.println("Если возраст человека равен");
+            int temperature = 7;
+            if (temperature <= 5) {
+                System.out.println("На улице " + temperature + " градуса, нужно надеть шапку");
+            } else
+            {
+                System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
             }
-
+        }
 }
