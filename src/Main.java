@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -7,6 +9,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
         public static void task1 () {
             System.out.println("Задача 1:");
@@ -51,7 +54,7 @@ public class Main {
         if (human >= 18 && human < 24) {
             System.out.println("Если возраст человека равен " + human + ", то ему нужно ходить в университет");
         }
-        if (human >= 24) {
+        else {
             System.out.println("Если возраст человека равен " + human + ", то ему нужно ходить на работу");
         }
     }
@@ -64,9 +67,28 @@ public class Main {
         if (child >= 5 && child < 14) {
             System.out.println("Если возраст ребенка равен " + child + ", то ему можно кататься на аттракционе в сопровождении");
         }
-        if (child > 14) {
+        else {
             System.out.println("Если возраст ребенка равен " + child + ", то ему можно без сопровождения взрослого");
         }
+    }
+    public static void task6 () {
+        System.out.println("Задача 6:");
+
+        int passenger = 50;
+        int vagon = 102;
+        int seat = 60;
+
+        if (passenger <= seat) {
+            System.out.println("Еще есть сидячее место");
+        } else {
+        if (passenger > seat && passenger <= vagon ) {
+            System.out.println("Еще есть стоячее место");
+        }
+        else {
+            System.out.println("Мест в вагоне уже нет");
+        }}
+
+
     }
 
 }
