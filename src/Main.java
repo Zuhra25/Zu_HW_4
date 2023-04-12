@@ -10,6 +10,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
         public static void task1 () {
             System.out.println("Задача 1:");
@@ -81,13 +82,33 @@ public class Main {
         if (passenger <= seat) {
             System.out.println("Еще есть сидячее место");
         } else {
-        if (passenger > seat && passenger <= vagon ) {
-            System.out.println("Еще есть стоячее место");
+            if (passenger > seat && passenger <= vagon) {
+                System.out.println("Еще есть стоячее место");
+            } else {
+                System.out.println("Мест в вагоне уже нет");
+            }
         }
-        else {
-            System.out.println("Мест в вагоне уже нет");
-        }}
+    }
 
+    public static void task7 () {
+        System.out.println("Задача 7:");
+        // int one;
+        //int two;
+        //int three;
+        //вычисляет, какое из трех чисел бо́льшее, и выводит результат в консоль.
+        int one = 4;
+        int two = 7;
+        int three = 3;
+
+        if (one > two && one > three) {
+            System.out.println("Самое большое число - " + one);
+        } else {
+            if (two > one && two > three) {
+                System.out.println("Самое большое число - " + two);
+            } else {
+                System.out.println("Самое большое число - " + three);
+            }
+        }
 
     }
 
