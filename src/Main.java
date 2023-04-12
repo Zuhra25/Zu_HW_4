@@ -92,10 +92,6 @@ public class Main {
 
     public static void task7 () {
         System.out.println("Задача 7:");
-        // int one;
-        //int two;
-        //int three;
-        //вычисляет, какое из трех чисел бо́льшее, и выводит результат в консоль.
         int one = 4;
         int two = 7;
         int three = 3;
