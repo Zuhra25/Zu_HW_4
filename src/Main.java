@@ -89,7 +89,6 @@ public class Main {
             }
         }
     }
-
     public static void task7 () {
         System.out.println("Задача 7:");
         int one = 4;
